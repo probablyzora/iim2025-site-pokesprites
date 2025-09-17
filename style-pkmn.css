@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Pixelify Sans', sans-serif;
+}
+header {
+    font-size: xx-large;
+    padding: 8px;
+    text-align: center;
+    background-color: tomato;
+}
+section.page1 {
+    padding: 8px;
+}
+article.section1 {
+    padding: 8px;
+    display: flex;
+    flex-wrap: wrap;
+}
+div.summary {
+    width: calc(100%/2);
+    height: 100%;
+    background-color: turquoise;
+    padding: 8px;
+}
+div.intro {
+    width: calc(100%/2);
+    height: 100%;
+    background-color: tomato;
+    padding: 8px;
+
+}
