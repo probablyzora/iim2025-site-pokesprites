@@ -24,13 +24,14 @@ div.summary {
   padding: 8px;
   width: calc(100% / 6);
   height: auto;
-  background-color: turquoise;
+  background-color:#f7f6ed
 }
 div.intro {
   padding: 8px;
   width: calc((100% / 6) * 5);
   height: auto;
-  background-color: tomato;
+  justify-content: center;
+  background-color: #f7f6ed;
 }
 article.section2 {
 }
@@ -53,5 +54,98 @@ div.gen1 {
   align-items: center;
   justify-content: center;
   width: 50%;
+  background-color: #5f00e0;
+  color: #f7f6ed;
 }
-div.centeredimages
+article.centeredimages-section {
+  display: flex;
+  width: calc(100%);
+  height: calc(100%);
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+div.centeredimages {
+  width: calc(100% / 5);
+  height: calc(100% / 5);
+  display: flex;
+  justify-items: normal;
+  align-items: normal;
+  margin: 20px;
+  image-rendering: pixelated;
+  flex-direction: column;
+  text-align: center;
+}
+div.centeredimages-red {
+  width: calc(100% / 5);
+  height: calc(100% / 5);
+  display: flex;
+  justify-items: normal;
+  align-items: normal;
+  margin: 20px;
+  image-rendering: pixelated;
+  flex-direction: column;
+  text-align: center;
+}
+div.centeredimages-red:hover {
+  width: calc(100% / 5);
+  height: calc(100% / 5);
+  display: flex;
+  justify-items: normal;
+  align-items: normal;
+  margin: 20px;
+  image-rendering: pixelated;
+  flex-direction: column;
+  text-align: center;
+  background-color: red;
+}
+div.centeredimages-blue {
+  width: calc(100% / 5);
+  height: calc(100% / 5);
+  display: flex;
+  justify-items: normal;
+  align-items: normal;
+  margin: 20px;
+  image-rendering: pixelated;
+  flex-direction: column;
+  text-align: center;
+}
+div.centeredimages-blue:hover {
+  width: calc(100% / 5);
+  height: calc(100% / 5);
+  display: flex;
+  justify-items: normal;
+  align-items: normal;
+  margin: 20px;
+  image-rendering: pixelated;
+  flex-direction: column;
+  text-align: center;
+  background-color: blue;
+}
+div.centeredimages-yellow {
+  width: calc(100% / 5);
+  height: calc(100% / 5);
+  display: flex;
+  justify-items: normal;
+  align-items: normal;
+  margin: 20px;
+  image-rendering: pixelated;
+  flex-direction: column;
+  text-align: center;
+}
+div.centeredimages-yellow:hover {
+  width: calc(100% / 5);
+  height: calc(100% / 5);
+  display: flex;
+  justify-items: normal;
+  align-items: normal;
+  margin: 20px;
+  image-rendering: pixelated;
+  flex-direction: column;
+  text-align: center;
+  background-color: yellow;
+}
+footer{
+    font-size: 18px;
+    color: gray;
+}
