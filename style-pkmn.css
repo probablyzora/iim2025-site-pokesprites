@@ -1,30 +1,57 @@
 * {
-    box-sizing: border-box;
-    font-family: 'Pixelify Sans', sans-serif;
+  box-sizing: border-box;
+  font-family: "Jersey 10", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 32px;
+  border-style: groove;
+  border-radius: 10px;
 }
 header {
-    font-size: xx-large;
-    padding: 8px;
-    text-align: center;
-    background-color: tomato;
+  font-size: 72px;
+  padding: 8px;
+  text-align: center;
+  background-color: tomato;
 }
-section.page1 {
-    padding: 8px;
+body {
+  background-color: #f7f6ed;
 }
-article.section1 {
-    padding: 8px;
-    display: flex;
-    flex-wrap: wrap;
+article.section {
+  display: flex;
+  flex-wrap: wrap;
 }
 div.summary {
-    width: calc(100%/5);
-    height: 100%;
-    background-color: turquoise;
-    padding: 8px;
+  padding: 8px;
+  width: calc(100% / 6);
+  height: auto;
+  background-color: turquoise;
 }
 div.intro {
-    width: calc(100%/2);
-    height: 100%;
-    background-color: tomato;
-    padding: 8px;
+  padding: 8px;
+  width: calc((100% / 6) * 5);
+  height: auto;
+  background-color: tomato;
 }
+article.section2 {
+}
+div.section2-title {
+  font-size: 42px;
+  width: 100%;
+  height: 1%;
+  padding: 8px;
+  text-align: center;
+  background-color: tomato;
+}
+div.logo1 {
+  width: 50%;
+  display: flex;
+  object-fit: fill;
+  justify-content: right;
+}
+div.gen1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+}
+div.centeredimages
