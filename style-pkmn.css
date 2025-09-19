@@ -17,7 +17,7 @@ article.section1 {
     flex-wrap: wrap;
 }
 div.summary {
-    width: calc(100%/2);
+    width: calc(100%/5);
     height: 100%;
     background-color: turquoise;
     padding: 8px;
@@ -27,5 +27,4 @@ div.intro {
     height: 100%;
     background-color: tomato;
     padding: 8px;
-
 }
