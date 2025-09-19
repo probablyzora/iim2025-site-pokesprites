@@ -19,6 +19,7 @@ body {
 article.section {
   display: flex;
   flex-wrap: wrap;
+  padding: 8px;
 }
 div.summary {
   padding: 8px;
@@ -52,7 +53,7 @@ div.gen1 {
   align-items: center;
   justify-content: center;
   width: 50%;
-  background-color: #5f00e0;
+  background-color: blueviolet;
   color: #f7f6ed;
 }
 article.centeredimages-section {
@@ -95,7 +96,7 @@ div.centeredimages-red:hover {
   image-rendering: pixelated;
   flex-direction: column;
   text-align: center;
-  background-color: red;
+  background-color: tomato;
 }
 div.centeredimages-blue {
   width: calc(100% / 5);
@@ -118,7 +119,7 @@ div.centeredimages-blue:hover {
   image-rendering: pixelated;
   flex-direction: column;
   text-align: center;
-  background-color: blue;
+  background-color: blueviolet;
 }
 div.centeredimages-yellow {
   width: calc(100% / 5);
@@ -141,7 +142,7 @@ div.centeredimages-yellow:hover {
   image-rendering: pixelated;
   flex-direction: column;
   text-align: center;
-  background-color: yellow;
+  background-color: goldenrod;
 }
 footer{
     font-size: 18px;
